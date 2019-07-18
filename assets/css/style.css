@@ -44,6 +44,7 @@ h1 {
   font-size: 30px;
   line-height: 49px;
   border-bottom: 3px solid #dddddd;
+  text-align: center;
 }
 
 h2,
@@ -140,8 +141,8 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
-  margin: 20px 0 25px;
+  width: 40%;
+  margin: 25px;
   overflow: auto;
 }
 
@@ -175,6 +176,26 @@ h3, h2 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  transform: rotate(180deg)
+  
+}
+
+.auth-image1 {
+  float: right;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  
+}
+
+.auth-image2 {
+
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-left: 125px;
+  transform: rotate(180deg)
 }
 
 /* contact page */
@@ -259,6 +280,21 @@ input[type=submit] {
     margin-right: 25px;
     
   }
+
+  .auth-image1{
+  
+    width: 50%;
+    height: auto;
+    float: right;
+    
+  }
+
+  .auth-image2{
+  
+    width: 50%;
+    height: auto;
+    margin-left: 0px;
+  }
   
   #logo{
 
@@ -285,6 +321,24 @@ input[type=submit] {
   }
   
   .auth-image{
+  
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 0px;
+    
+  }
+
+  .auth-image1{
+  
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 0px;
+    
+  }
+  
+  .auth-image2{
   
     width: 100%;
     height: auto;
